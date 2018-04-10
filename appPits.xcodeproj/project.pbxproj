@@ -14,6 +14,8 @@
 		24C3AF7A207D04A7003B858C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3AF78207D04A7003B858C /* LaunchScreen.storyboard */; };
 		24C3AF85207D04A7003B858C /* appPitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3AF84207D04A7003B858C /* appPitsTests.swift */; };
 		24C3AF90207D04A7003B858C /* appPitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3AF8F207D04A7003B858C /* appPitsUITests.swift */; };
+		24C3AF9E207D1813003B858C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3AF9D207D1813003B858C /* SignInViewController.swift */; };
+		24C3AFA0207D1BA9003B858C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3AF9F207D1BA9003B858C /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		24C3AF8B207D04A7003B858C /* appPitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appPitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C3AF8F207D04A7003B858C /* appPitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appPitsUITests.swift; sourceTree = "<group>"; };
 		24C3AF91207D04A7003B858C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C3AF9D207D1813003B858C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		24C3AF9F207D1BA9003B858C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				24C3AF76207D04A7003B858C /* Assets.xcassets */,
 				24C3AF78207D04A7003B858C /* LaunchScreen.storyboard */,
 				24C3AF7B207D04A7003B858C /* Info.plist */,
+				24C3AF9D207D1813003B858C /* SignInViewController.swift */,
+				24C3AF9F207D1BA9003B858C /* RegisterViewController.swift */,
 			);
 			path = appPits;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				24C3AF72207D04A7003B858C /* ViewController.swift in Sources */,
 				24C3AF70207D04A7003B858C /* AppDelegate.swift in Sources */,
+				24C3AF9E207D1813003B858C /* SignInViewController.swift in Sources */,
+				24C3AFA0207D1BA9003B858C /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
